@@ -10,6 +10,19 @@ This repository contains the implementation of a Vision Transformer (ViT) model 
 # Dataset
 The dataset used for this project is a subset of the COCO 2014 dataset, consisting of 2,500 images for each of the five classes (airplanes, buses, cats, dogs, and pizzas), totaling 12,500 images. The dataset is split into training and testing sets, with 10,000 images used for training and 2,500 images used for testing.
 
+# Model
+The Vision Transformer model used in this project has the following architecture:
+- Image size: 64x64
+- Patch size: 16x16
+- Number of channels: 3 (RGB)
+- Number of classes: 5 (airplane, bus, cat, dog, pizza)
+- Embedding size: 256
+- Number of heads: 8
+- Number of layers: 6
+
+# Results
+The model's performance is evaluated using a confusion matrix, which is saved as confusion_matrix_ViT.jpg in the repository. The overall accuracy of the network on the test images is calculated as a percentage.
+
 # Features
 - Utilizes the COCO dataset to create a custom dataset containing 5 classes (airplane, bus, cat, dog, and pizza), with 1500 images per class
 - Employs data augmentation techniques such as random affine transformations, color jitter, and random horizontal flips to improve the model's generalization capabilities
@@ -35,7 +48,7 @@ The dataset used for this project is a subset of the COCO 2014 dataset, consisti
 - pycocotools
 - NumPy
 - Matplotlib
-- Scikit-learn
+- Scikit-learn (sklearn)
 - Seaborn
 - PIL (Python Imaging Library)
 
