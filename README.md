@@ -21,7 +21,7 @@ The Vision Transformer model used in this project has the following architecture
 - Number of layers: 6
 
 # Results
-The model's performance is evaluated using a confusion matrix, which is saved as confusion_matrix_ViT.jpg in the repository. The overall accuracy of the network on the test images is calculated as a percentage
+The model's performance is evaluated using a confusion matrix, which is saved as confusion_matrix_ViT.jpg in the repository. The overall accuracy of the network on the test images is calculated as a percentage.
 
 # Features
 - Utilizes the COCO dataset to create a custom dataset containing 5 classes (airplane, bus, cat, dog, and pizza), with 1500 images per class
