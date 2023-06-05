@@ -2,7 +2,7 @@
 This repository contains the implementation of a Vision Transformer (ViT) model for image classification on a custom dataset. The model leverages the power of the transformer architecture to efficiently learn the essential features for classifying images into 5 different categories: airplane, bus, cat, dog, and pizza.
 
 # Repository Structure
-- hw9_test.ipynb: Main Python script for creating the dataset, defining the Vision Transformer model, and evaluating the model on the test set.
+- hw9_test.ipynb: Main Python script for creating the dataset, defining the Vision Transformer model, and evaluating the model on the test set
 - ViTHelper.py: Contains helper classes and functions for the Vision Transformer model, including the MasterEncoder and SelfAttention classes
 - train2014/: Contains the training images for the COCO 2014 dataset
 - annotations/: Contains the instance annotation files for the COCO 2014 dataset
